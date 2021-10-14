@@ -37,7 +37,7 @@ function PushedNotificationAccessory(log, config) {
   this.SendNotification = function () {
     this.log('Send notification to Prowl: ' + this.notificationMessage);
 
-    prowl.push(this.serviceAppEvent, this.serviceAppName, {
+    this.prowl.push(this.serviceAppEvent, this.serviceAppName, {
       priority: -1,
       description: this.notificationMessage,
     });
