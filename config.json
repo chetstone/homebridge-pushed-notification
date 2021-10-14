@@ -8,13 +8,13 @@
 
   "accessories": [
     {
-      "accessory": "GetPushedNotification",
-      "name": "Test Message",
-      "app_key": "kXasdascl3YQQG5TYi",
-      "app_secret": "jFsdasdqroX3pd8GmPPg8KzJrlGEWG01d8t1LUJdBoLaUUt",
-      "app_name": "Home", 
-      "message": "This is test message", 
-      "mute_notification_interval_in_sec": 60 
+      "accessory": "ProwlNotification",
+      "name": "Marantz On",
+      "api_key": "kXasdascl3YQQG5TYi",
+      "app_event": "Marantz On",
+      "app_name": "Homebridge",
+      "message": "Marantz turned on",
+      "mute_notification_interval_in_sec": 60
     }
   ]
 }
